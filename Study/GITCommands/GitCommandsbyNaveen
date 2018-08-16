@@ -1,24 +1,15 @@
 ***********************************************************************************
 Github Steps:
-Create New Repository with some Name
-https://github.com/Rajanarender/Selfstudy.git //copy this URl
+Create New Repository with RepoName
+https://github.com/Rajanarender/RepoName.git //copy this URl
 go to linux terminal
-enter the command for cloning/download the repository: git clone https://github.com/Rajanarender/Selfstudy.git
-Now we need to switch to this git directory Selfstudy
-
-cd directoryname[here Selfstudy] ,Do the below steps in the cloned directory only
-enter the command: git init
-enter command: git branch --to check if any branch/folder is present or not
-
-git checkout -b branchName [To create Git branch with some name] //Compulsory
-
-cp -R Study Selfstudy[copy your local folder to git]
-like this cp -R ../Study .
-
-=>git add Study[directory or filename] -- this will add directory/file to the index
-git status --this will display all the files of that directory
-git commit -m "Selfstudy directory added to Git on 6June2018" [commit the directory with "discription"]
-git push origin brachName [this will push the local repository to git server/website]
+git clone ...RepoName
+cd RepoName //traverse into that new repo, V.V.Imp
+git checkout -b branchname //creating new branch and traverse into that
+cp -R ../localdirectory .
+git add localdirectory
+git commit -m "comments"
+git push origin branchname
 Enter Username:Rajanarender
 Password:
 
